@@ -1,0 +1,77 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android build outputs
+/android/app/build/
+/android/build/
+/android/.gradle/
+
+# iOS build outputs
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Runner.xcworkspace/xcuserdata/
+/ios/Runner.xcodeproj/xcuserdata/
+/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+/ios/Runner.xcworkspace/xcshareddata/swiftpm/
+/ios/Flutter/Generated.xcconfig
+
+# VS Code
+.vscode/
+
+# Local SDK reference
+/android/app/libs/
+*.aar
+
+# Keys and sensitive data
+android/key.properties
+*.keystore
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Flutter specific
+*.lock
