@@ -7,10 +7,6 @@ import io.timon.android.pixelsampler.PixelSampler
 
 class MainActivity : FlutterActivity() {
 
-    init {
-        PixelSampler.init()
-    }
-
     override fun onResume() {
         super.onResume()
         PixelSampler.start(this)
